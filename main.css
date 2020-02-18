@@ -3,7 +3,7 @@ html,body{
     margin: 0;
 }
 
-.navbar_container{
+#navbar_container{
     display: flex;
     justify-content: end;
 }
@@ -21,3 +21,9 @@ a{
     justify-content: center;
     align-content: center;
 }
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+

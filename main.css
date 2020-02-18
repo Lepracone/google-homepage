@@ -1,11 +1,18 @@
 html,body{
     height: 100%;
     margin: 0;
+    font-family:arial, sans-serif;
+    font-size: 18px;
+    font-weight: 20;
 }
 
 #navbar_container{
     display: flex;
     justify-content: end;
+    align-items: center;
+    padding-top: 10px;
+    padding-right:10px;
+    line-height: 28px;
 }
 
 a{
@@ -18,8 +25,7 @@ a{
     display:flex;
     flex-direction: column;
     height: auto;
-    justify-content: center;
-    align-content: center;
+    align-self: center;
 }
 
 #footer{
@@ -27,3 +33,25 @@ a{
     justify-content: space-between;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#apps_icon{
+    font-size: 22px;
+    padding: 10px;
+}
+
+#signin_button{
+    background-color: #008CBA ;
+    border-radius: 0;
+    color:white;
+    border-radius: 5px;
+    height: 28px;
+    padding: 10px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}

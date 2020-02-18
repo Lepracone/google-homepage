@@ -2,8 +2,6 @@ html,body{
     height: 100%;
     margin: 0;
     font-family:arial, sans-serif;
-    font-size: 18px;
-    font-weight: 20;
 }
 
 #navbar_container{
@@ -16,9 +14,10 @@ html,body{
 }
 
 a{
-    color: black;
+    color: #5f6368;
     text-decoration: none;
     padding: 10px;
+    font-size: 15px;
 }
 
 #main_container{
@@ -31,6 +30,9 @@ a{
 #footer{
     display: flex;
     justify-content: space-between;
+    background-color:rgb(245, 245, 245);
+    line-height: 45px;
+    padding:0;
 }
 
 body{
@@ -46,7 +48,7 @@ body{
 
 #signin_button{
     background-color: #008CBA ;
-    border-radius: 0;
+    border:none;
     color:white;
     border-radius: 5px;
     height: 28px;
@@ -54,4 +56,10 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
+    font-size: 15px;;
+}
+
+#footer div a{
+    color: #5f6368;
+    font-size: 15px;;
 }

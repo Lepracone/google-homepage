@@ -25,6 +25,7 @@ a{
     flex-direction: column;
     height: auto;
     align-self: center;
+    justify-content: center;
 }
 
 #footer{
@@ -33,6 +34,7 @@ a{
     background-color:rgb(245, 245, 245);
     line-height: 45px;
     padding:0;
+    border:1px solid rgba(211, 211, 211,0.55)
 }
 
 body{
@@ -56,10 +58,60 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
-    font-size: 15px;;
+    font-size: 15px;
 }
 
 #footer div a{
     color: #5f6368;
     font-size: 15px;;
+}
+
+#logo_container{
+    display: flex;
+    justify-content: center;
+
+}
+#logo_container img{
+    width: 300px;
+    height: auto;
+    padding:20px;
+}
+input{
+    border:none;
+    width: 500px;
+}
+#form_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(245, 245, 245);
+    height:55px;
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+
+#form_container i{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.buttons_style{
+    background-color: rgb(245, 245, 245);
+    color: #5f6368;
+    border: none;
+    border-radius:0px;
+    height: 28px;
+    margin:5px;
+    padding: 20px 40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
